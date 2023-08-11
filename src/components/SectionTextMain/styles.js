@@ -69,5 +69,10 @@ export const ImageItemSecondary = styled.img`
     z-index: -1;
     background-color: #fff;
     position: absolute;
+
+    @media (max-width: 500px) {
+        width: 240px;
+        left: -100px;
+    }
 `
 
