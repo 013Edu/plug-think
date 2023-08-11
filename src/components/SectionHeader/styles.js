@@ -44,6 +44,7 @@ export const ContentIcons = styled.div`
 
     @media(max-width:1290px) {
         width: 75px;
+        margin-top: 2rem;
     }
 
     @media(max-width:960px) {
@@ -60,6 +61,7 @@ export const ContentButton = styled.div`
 
   @media(max-width:1054px) {
     flex-direction: column;
+
   }
 `
 
@@ -87,6 +89,10 @@ export const ContentButtonText = styled.div`
   align-items: start;
   gap: 1rem;
   min-width: 300px;
+
+  @media(max-width:1054px) {
+    justify-content: center;
+  }
 
   h2 {
     color: #fff;
