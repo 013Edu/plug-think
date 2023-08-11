@@ -4,7 +4,7 @@ export const ContentTexts = styled.div`
     display: flex;
     align-items: center;
     margin-top: 20rem;
-    padding: 5rem 20rem;
+    padding-top: 3rem;
     gap: 10rem;
     background-color: #fff;
     border-top: 3px solid #FF0066;
@@ -30,6 +30,10 @@ export const ContentText = styled.div`
             font-size: 2.5rem;
             max-width: 800px;
         }
+
+        @media (max-width: 1000px) {
+            font-size: 2rem;
+        }
     }
 
 `
@@ -52,6 +56,10 @@ export const ImageItem = styled.img`
 
     @media (max-width: 1000px) {
         width: 340px;
+    }
+
+    @media (max-width: 500px) {
+        width: 240px;
     }
 `
 export const ImageItemSecondary = styled.img`
