@@ -13,6 +13,11 @@ export const ContentTitle = styled.div`
     display: flex;
     align-items: end;
 
+    @media(max-width:1054px) {
+        flex-direction: column;
+        align-items: center;
+  }
+
 `;
 
 export const Title = styled.h1`
@@ -34,11 +39,15 @@ export const ContentIcons = styled.div`
   gap: 1rem;
 
   img {
-    width: 130px;
-    min-width: 60px;
+    width: 90px;
+    min-width: 30px;
 
-    @media(max-width:1054px) {
+    @media(max-width:1290px) {
         width: 75px;
+    }
+
+    @media(max-width:960px) {
+        width: 35px;
     }
   }
 
@@ -48,6 +57,10 @@ export const ContentButton = styled.div`
   display: flex;
   align-items: center;
   gap: 5rem;
+
+  @media(max-width:1054px) {
+    flex-direction: column;
+  }
 `
 
 export const Button = styled.button`
