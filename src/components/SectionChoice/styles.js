@@ -13,7 +13,7 @@ export const ContainerTexts = styled.div`
   background-color: #fff;
   max-width: 660px;
   margin: 0 auto;
-  padding-left: 3rem;
+  padding-left: 0.8rem;
 
   p {
     background-color: #fff;
