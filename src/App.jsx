@@ -1,5 +1,6 @@
 import { Header } from "./components/Header"
 import { SectionCards } from "./components/SectionCards"
+import { SectionChoice } from "./components/SectionChoice"
 import { SectionForm } from "./components/SectionForm"
 import { SectionHeader } from "./components/SectionHeader"
 import { SectionTextMain } from "./components/SectionTextMain"
@@ -13,6 +14,7 @@ function App() {
       <SectionTextMain />
       <SectionCards />
       <SectionForm />
+      <SectionChoice />
     </>
   )
 }
