@@ -36,7 +36,7 @@ export const ContainerCaroussel = styled.div`
   background-color: #fff;
   display: flex;
   width: 100%;
-  padding: 3rem;
+  padding-top: 3rem;
   position: relative;
 
 
@@ -62,6 +62,7 @@ export const Button = styled.button`
         font-size: 12px;
         width: 80px;
         margin-left: -20px;
+        text-align: center;
     }
 
 
