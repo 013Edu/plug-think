@@ -38,6 +38,7 @@ export const ContainerCaroussel = styled.div`
   width: 100%;
   padding: 3rem;
   position: relative;
+  margin-left: -30px;
 
 
   div {
