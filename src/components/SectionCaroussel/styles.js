@@ -57,6 +57,13 @@ export const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
 
+  
+  @media(max-width:590px) {
+        font-size: 12px;
+        width: 80px;
+        margin-left: -20px;
+    }
+
 
   &:hover {
     transition: background-color 0.3s;

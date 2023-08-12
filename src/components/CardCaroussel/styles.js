@@ -26,21 +26,26 @@ export const Container = styled.div`
   }
 
   @media(max-width:590px) {
-    min-width: 280px;
-    min-height: 340px;
+    width: 200px;
+    height: 300px;
   }
 `;
 
 export const ContentImage = styled.div`
-  background-color: #fff;
+  background-color: transparent;
  
 
   img {
-    background-color: #fff;
+    background-color: transparent;
 
     @media(max-width:1930px) {
         width: 110px;
         margin-top: 30px;
+    }
+
+    @media(max-width:590px) {
+        width: 100px;
+        margin-left: -20px;
     }
 
   }
@@ -51,14 +56,20 @@ export const ContentTitle2 = styled.div`
     text-align: center;
     max-width: 300px;
 
+    @media(max-width:590px) {
+        display: none;
+    }
+
     h3 {
         color: #000;
         background-color:#fff;
         font-size: 30px;
 
         @media (max-width: 670px) {
-        font-size: 18px;
-    }
+            font-size: 18px;
+        }
+
+        
     }
 `;
 
@@ -91,6 +102,9 @@ export const Button = styled.div`
   @media(max-width:1930px) {
         margin-bottom: 300px;
     }
+
+    
+ 
 `;
 
 
