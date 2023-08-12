@@ -31,6 +31,10 @@ export const Title = styled.h1`
     font-size: 1.8rem;
   }
 
+  @media(max-width:360px) {
+    font-size: 1rem;
+  }
+
   span {
     color: #FF0066;
     font-weight: bold;
