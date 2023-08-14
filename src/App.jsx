@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { SectionCards } from "./components/SectionCards"
 import { SectionCaroussel } from "./components/SectionCaroussel"
@@ -17,6 +18,7 @@ function App() {
       <SectionForm />
       <SectionChoice />
       <SectionCaroussel />
+      <Footer />
     </>
   )
 }

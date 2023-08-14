@@ -1,7 +1,7 @@
 
 import { Container, NavBar, SectionRegionsContainer } from "./styles";
 
-import logo from "../../assets/logo.svg"
+import logo from "../../assets/logo2.png"
 import planetIcon from "../../assets/planet.png"
 
 export function Header() {
