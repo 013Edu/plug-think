@@ -1,17 +1,37 @@
 
 import { Container, NavBar, SectionRegionsContainer } from "./styles";
 
+import { useState, useEffect } from "react";
+
 import logo from "../../assets/logo2.png"
 import planetIcon from "../../assets/planet.png"
 
 export function Header() {
+
+    const [isHeaderSticky, setIsHeaderSticky] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setIsHeaderSticky(true);
+            } else {
+                setIsHeaderSticky(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
         <>
             <SectionRegionsContainer>
                 <img src={planetIcon} alt="Ícone do planeta terra" />
                 <h3>Brasil - Colômbia - Equador - Peru - Costa Rica - Chile</h3>
             </SectionRegionsContainer>
-            <Container>
+            <Container isSticky={isHeaderSticky}>
                 <img src={logo} alt="Logo da Plug Think" />
 
                 <NavBar>

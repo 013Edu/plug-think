@@ -1,9 +1,9 @@
-import { Button, Container, ContentButton, ContentButtonText, ContentIcons, ContentTitle, Title } from "./styles";
+import { Button, Container, ContainerIconWpp, ContentButton, ContentButtonText, ContentIcons, ContentTitle, Title } from "./styles";
 
 import flameIcon from "./flame.svg"
 import boltIcon from "./bolt.svg"
 
-import { FaArrowAltCircleRight } from "react-icons/fa"
+import { FaArrowAltCircleRight, FaWhatsapp } from "react-icons/fa"
 
 export function SectionHeader() {
     return (
@@ -26,6 +26,24 @@ export function SectionHeader() {
                     <FaArrowAltCircleRight color="#fff" size={20} style={{ marginTop: 2 }} />
                 </ContentButtonText>
             </ContentButton>
+
+            <ContainerIconWpp>
+                <a
+                    href="https://api.whatsapp.com/send?phone=558399999999"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FaWhatsapp
+                        color="#fff"
+                        size={60}
+                        style={{
+                            backgroundColor: "green",
+                            borderRadius: 45,
+                            padding: "0.5rem",
+                        }}
+                    />
+                </a>
+            </ContainerIconWpp>
         </Container>
     )
 }

@@ -2,11 +2,26 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 3rem 20rem;
+  margin-top: 12rem;
 
   @media(max-width:1054px) {
     padding: 3rem 10rem;
   }
 
+`;
+
+export const ContainerIconWpp = styled.div`
+  position: fixed;
+  right: 60px;
+  bottom: 20px;
+  background-color: green;
+  border-radius: 50px;
+  z-index: 1000;
+  cursor: pointer;
+
+  a {
+    background-color: transparent;
+  }
 `;
 
 export const ContentTitle = styled.div`
