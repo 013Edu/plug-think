@@ -1,8 +1,13 @@
-# React + Vite
+# Site para empresa PlugThink
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site com visual moderno e responsivo, mostrando tudo que a PlugThink tem a oferecer aos clientes.
 
-Currently, two official plugins are available:
+## Tecnologiass utilizadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Javascript
+- Styled Components
+- React Icons
+
+## Preview
+![screencapture-localhost-5173-2023-08-14-10_20_50](https://github.com/013Edu/plug-think/assets/91925011/6a815f67-deef-4e25-b33b-3e64d6043a13)
